@@ -1,0 +1,656 @@
+/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
+*/
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+header > cabecera{
+   width: Fixed (1,136px); 
+   height: Hug (88px);
+   justify-items: space-between;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+header > cabecera__logo{
+    width: 22px;
+    height: 22px;
+    top: 1px;
+    left: 1px;
+    color: #464646;
+}
+header > cabecera__titulo{
+    width: 102px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    line-height: 18.78px;
+}
+header > navegacion{
+    width: Hug (653px);
+    height: Hug (19px);
+    gap: 32px;
+} 
+header > navegacion__elemento-mi{
+    width:  67px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+header > navegacion__elemento-hab{
+    width:  40px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+header > navegacion__elemento-afi{
+    width:  63px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+header > navegacion__elemento-for{
+    width:  80px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+header > navegacion__elemento-proyectos{
+    width:  75px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+header > navegacion__elemento-con{
+    width:  168px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
+}
+
+.cabecera__logo {
+    max-width: 80px; /* Ajuste para pantallas pequeñas */
+}
+
+.cabecera__titulo {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.navegacion__lista {
+    display: none;
+}
+
+
+.navegacion__elemento a {
+    font-size: 0.9rem;
+}
+
+
+/* ------------------------------ Sección Presentación ------------------------------*/
+
+.presentacion{
+	display: flex;
+    flex-direction: row-reverse;
+	align-items: center;
+	justify-content:space-around;
+    width: Fixed (1,136px);
+    height: Hug (368px);
+    justify-items: space-between;
+}
+.presentacion_inicio{
+    width: Fixed (751px);
+    height: Hug (246px);
+    gap: 24px;
+}
+.presentacion__foto{
+    width: 368px;
+    height: 368px;
+}
+.presentacion__contenedor{
+    width: Fixed (751px);
+    height: Hug (246px);
+    gap: 24px;
+}
+.presentacion__titulo{
+    width: 751px;
+    height: 122px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61.05px;
+    color: #464646;
+}
+.presentacion__subtitulo{
+    width: 751px;
+    height: 52px;
+    font: Raleway;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.83px;
+    color: #464646;
+}
+
+.redes{
+    width: Hug (467px);
+    height: Hug (24px);
+    gap: 32px;
+    
+}
+.redes__img-git{
+    width: 50px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+.redes__img-linked{
+    width: 64px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+.redes__img-inst{
+    width: 76px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+.redes__img-goog{
+    width: 69px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+.flecha{
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 23.31px;
+    rotate: -135°;
+    justify-content:space-between ;
+    color: #464646;
+    motion-rotation: -135°;
+}
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+.sobre-mi{
+background-color: #EAF2FD;
+width: Fill (1,440px);
+height: Hug (383px);
+padding: 64px;
+gap: 10px;
+}
+.sobre-mi-class{
+    width: Fixed (1,136px);
+    height: Hug (255px);
+    gap: 16px;
+
+    
+}
+.sobre-mi__titulo{
+    width: 137px;
+    height: 38px;
+    font:Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    color: #464646;
+  
+}
+.sobre-mi__texto{
+    width: 751px;
+    height: 133px;
+    font: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+    
+   
+    
+    
+}
+.sobre-mi__firma{
+    width: 140px;
+    height: 52px;
+}
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+.habilidades{
+    width: Hug (1,136px);
+    height: Hug (244px);
+    gap: 32px;
+}
+.habilidades__titulo{
+    width: 82px;
+    height: 38px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    position: center;
+    color: #464646;
+}
+
+.habilidades__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+	justify-content:space-around;
+}
+
+.habilidades__elemento{
+    width: Fixed (176px);
+    height: Fixed (174px);
+    padding: 16px;
+    gap: 8px;
+    background-color: #FFFFFF;
+}
+.habilidades__icono{
+    width: auto;
+    height: auto;
+    font: Font Awesome 5 Brands;
+    font-weight: 400;
+    font-size: 32px;
+    font-size: 32px;
+    line-height: 36.8px;
+    align-items: center;
+    color: #2A7AE4;
+}
+.habilidades__nombre{
+    width: auto;
+    height: auto;
+    font: Raleway;
+    font-weight:700 ;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+.aficiones{
+    width: Hug (1,136px);
+    height: Hug (244px);
+    gap: 32px;
+}
+.aficiones__titulo{
+    width:127px ;
+    height: 38px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+    color: #464646;
+}
+
+.aficiones__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+	justify-content:space-around;
+}
+
+.aficiones__elemento{
+    width: Fixed (176px);
+    height: Fixed (174px);
+    padding: 16px;
+    gap: 8px;
+    background-color: #FFFFFF;
+}
+.aficiones__icono{
+    width: 32px;
+    height: 32px;
+}
+.aficiones__nombre{
+    width: 144px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+/*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos{
+    width: Hug (1,136px);
+    height: Hug (1,886px);
+    gap: 32px;
+}
+.proyectos__titulo{
+    width: 361px;
+    height: 38px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    position: center;
+    color: #464646;
+}
+.proyectos__contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+	justify-content:space-around; 
+    width:  Fixed (1,136px);
+    height: Fixed (406px);
+    gap: 16px;
+}
+.proyectos__nombre{
+    width: 368px;
+    height: 26px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    color: #464646;
+}
+.proyectos__descripcion{
+    width: 368px;
+    height: 19px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+/*------------------------------ Formación -------------------------------------------*/
+.formacion{
+    width: Fill (1,440px);
+    height: Hug (581px);
+    padding: 82px;
+    gap: 32px;
+    background-color: #EAF2FD;
+}
+.formacion__titulo{
+    width: 339px;
+    height: 38px;
+    font: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    position: center;
+    color:#464646;
+}
+.formacion__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+	justify-content:space-around;
+    width: Hug (1,136px);
+    height: Hug (347px);
+    gap: 16px;
+}
+.formacion__elemento{
+    width: Hug (368px);
+    height: Hug (347px);
+    gap: 8px;
+}
+.formacion__icono{
+    width: Fixed (368px);
+    height: Fixed (286px);
+    padding: 16px;
+    gap: 10px;
+    background-color: #FFFFFF;
+}
+.formacion__nombre{
+    width: auto;
+    height: auto;
+    font:  Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    color: #464646;
+}
+.formacion__detalle{
+    width: auto;
+    height:auto;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+/*------------------------------ Sección de Contacto ---------------------------------*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    height:  Hug (890px);
+    width:  Hug (1,440px);
+    background-color: #EAF2FD;
+}
+.seccion-contacto{
+    width: Fixed (1,136px);
+    height: Hug (660px);
+    padding-top: 64px;
+    gap: 16px;
+    display: flex;
+}
+.Telefono{
+    width: 464px;
+    height: 593px;
+    background-color: #EDEDED;
+}
+.llenar-formulario{
+    width:  Fill (656px);
+    height: Hug (596px);
+    gap: 32px;
+}
+.contacto-titulo{
+    width:  Hug (656px);
+    height: Hug (84px);
+    gap: 8px; 
+    font-size: 32px;
+    font-weight: 700;
+    font: Raleway;
+    color: #464646;
+    line-height: 37.57px;
+}
+.contacto-complemento{
+    width: 656px;
+    height: 38px;
+    font-size: 16px;
+    font-weight:500;
+    font: Raleway;
+    color: #464646;
+    line-height: 18.78px;  
+}
+
+form.contacto-formulario{
+    display: table;
+    width: Fill (656px);
+    height: Hug (56px);
+    border-inline-end-width: 656px;
+    border-inline-end-color: #C8C8C8;
+    border-top: 55px;
+}
+
+div.contacto-formulario{
+    display: table-row;
+   
+}
+
+input{
+    display: table-cell;
+    margin-bottom: 10px;
+    color:#FFFFFF ;
+}
+
+.contacto-campo{
+    width: 656px;
+    height: 56px;
+    gap: 4px;
+    font:  Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: left;
+}
+.contacto-email{
+    width: 656px;
+    height: 56px;
+    gap: 4px;
+    font:  Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#2A7AE4;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: left;
+}
+.contacto-campo-textarea{
+    width:  656px;
+    height: 133px ;
+    gap: 4px;
+    text-align: left;
+    padding-right: 12px;
+    padding-left: 12px;
+    top: 16px;
+    font-size: 16px;
+    font:  Raleway;
+    font-weight: 400;
+    line-height: 20px;
+    color: #464646;
+    
+}
+
+.contacto__boton{
+    width: Hug (144px);
+    height: Hug (51px);
+    padding: 16px;
+    gap: 10px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font: Raleway;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+/* ------------------------------ Footer ----------------------------------------------*/
+.footer-class{
+    background-color: #FFFFFF;
+    width:  Fixed (1,440px);
+    height:  32px;
+    gap: 10px;
+}
+.footer-text{
+    width: 229px;
+    height: 38px;
+    font: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    position: center;
+    color: #464646;
+}
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecera__logo {
+        max-width: 100px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
+}
